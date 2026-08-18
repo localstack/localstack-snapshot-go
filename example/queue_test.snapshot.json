@@ -1,0 +1,86 @@
+{
+  "TestCreateQueue": {
+    "recorded-content": {
+      "create-queue": {
+        "Attributes": {
+          "ApproximateNumberOfMessages": 0,
+          "CreatedTimestamp": "<timestamp:2022-07-13T13:48:01.000Z>",
+          "Policy": {
+            "Statement": [],
+            "Version": "2012-10-17"
+          },
+          "QueueArn": "<queue-arn:1>"
+        },
+        "QueueUrl": "<queue-url:1>",
+        "RequestId": "bca9e257",
+        "Tags": [
+          {
+            "Key": "env",
+            "Value": "test"
+          },
+          {
+            "Key": "owner",
+            "Value": "team-b"
+          }
+        ]
+      }
+    },
+    "recorded-date": "18-08-2026, 10:23:15"
+  },
+  "TestCreateQueueSubtests/first": {
+    "recorded-content": {
+      "create-queue": {
+        "Attributes": {
+          "ApproximateNumberOfMessages": 0,
+          "CreatedTimestamp": "<timestamp:2022-07-13T13:48:01.000Z>",
+          "Policy": {
+            "Statement": [],
+            "Version": "2012-10-17"
+          },
+          "QueueArn": "<queue-arn:1>"
+        },
+        "QueueUrl": "<queue-url:1>",
+        "RequestId": "f8b589a1",
+        "Tags": [
+          {
+            "Key": "env",
+            "Value": "test"
+          },
+          {
+            "Key": "owner",
+            "Value": "team-b"
+          }
+        ]
+      }
+    },
+    "recorded-date": "18-08-2026, 10:23:15"
+  },
+  "TestCreateQueueSubtests/second": {
+    "recorded-content": {
+      "create-queue": {
+        "Attributes": {
+          "ApproximateNumberOfMessages": 0,
+          "CreatedTimestamp": "<timestamp:2022-07-13T13:48:01.000Z>",
+          "Policy": {
+            "Statement": [],
+            "Version": "2012-10-17"
+          },
+          "QueueArn": "<queue-arn:1>"
+        },
+        "QueueUrl": "<queue-url:1>",
+        "RequestId": "1ef9bc4f",
+        "Tags": [
+          {
+            "Key": "env",
+            "Value": "test"
+          },
+          {
+            "Key": "owner",
+            "Value": "team-b"
+          }
+        ]
+      }
+    },
+    "recorded-date": "18-08-2026, 10:23:15"
+  }
+}
